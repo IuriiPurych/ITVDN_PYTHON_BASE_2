@@ -1,6 +1,9 @@
+# coding=utf-8
 # Создайте иерархию классов транспортных средств. В общем классе опишите общие для всех транспортных средств поля,
 # в наследниках – специфичные для них. Создайте несколько экземпляров.
 # Выведите информацию о каждом транспортном средстве.
+
+
 from Horse import Horse
 from Car import Car
 
@@ -8,5 +11,5 @@ h = Horse('Roach', 'brown')
 h.gallop()
 h.bite()
 
-c = Car('Ford', color='white', price = 15000)
+c = Car('Ford', color='white', price=15000)
 c.get_fuel(35)
